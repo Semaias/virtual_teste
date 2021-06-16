@@ -1,12 +1,10 @@
 import './styles.scss';
 
-import { HiOutlineLockClosed } from 'react-icons/hi';
-import { RiMailLockLine } from 'react-icons/ri';
-
-const Card = ( {name} ) => (
+const Card = ( {icon, text} ) => (
   <div className="container__card">
     <div className="container__card--content">
-      <HiOutlineLockClosed size={90} color="#5C3B81" />
+      {icon}
+      {text}
     </div>
   </div>
 );

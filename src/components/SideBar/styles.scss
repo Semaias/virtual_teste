@@ -1,17 +1,16 @@
 .container__sidebar{
-  width: 260px;
   Height: 100vh;
-  padding: 0;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   background-color: #5C3B81;
 
   .container__sidebar--title{
     width: 260px;
     height: 50px;
-    margin-left: -30px;
+    margin-left: 0px;
 
     display: flex;
     justify-content: center;
@@ -44,18 +43,30 @@
     justify-content: center;
     align-items: center;
 
-    width: 100% !important;
-    font-size: 18px !important;
-    padding: 0px !important;
-    margin: 0px !important;
-    margin-top: 20px !important;
+    width: 220px;
+    margin-top: 10px;
   }
 
-  .container__sidebar--card{
-    display: block
+}
+
+.container__sidebar--ftalks{
+  margin-left: 0px !important;
+  width: 100%;
+  border-bottom: 1px solid #D0C6D8;
+
+  display: flex;
+  align-items: center;
+  
+  color: #5C3B81;
+
+  .container__sidebar--ftalks_h2{
+    color: #5C3B81 !important;
   }
 
-  .button{
-    width: 236px !important;
+  .container__sidebar--ftcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
   }
 }
