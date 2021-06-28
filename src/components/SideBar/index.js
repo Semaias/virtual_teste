@@ -22,7 +22,7 @@ const SideBar = () => (
           <div className="container__sidebar">
             <div>
               <span className="container__sidebar--button">
-                <Link to="/chat">
+                <Link to="/contatos">
                   <Button
                     text="Iniciar Conversa (3/10)"
                     icon={<HiOutlinePencilAlt size={24} />}
