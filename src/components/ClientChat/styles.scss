@@ -1,0 +1,121 @@
+.cs-message__content{
+  padding: 10px !important;
+  padding: 10px 20px !important;
+  background-color: #ECE7F2 !important;
+  color: #5C3B81 !important;
+  font-size: 18px;
+}
+
+.message__outcoming{
+  div{
+    background-color: #5C3B81 !important;
+    color: #fff !important;
+    font-size: 18px;
+    border-radius: 16px 16px 0 16px !important;
+  }
+}
+
+.cs-message-separator{
+  font-size: 14px !important;
+  color: #756E7E !important;
+}
+.cs-message-separator::before{  
+  background-color: #756E7E;
+}
+.cs-message-separator::after{  
+  background-color: #756E7E;
+}
+.message__footer{
+  div{
+    padding: 0px !important;
+    background-color: #fff!important;
+    color: #756e7e !important;
+    font-size: 14px;
+  }
+}
+
+.ps__thumb-y{
+  background-color: #5C3B81 !important
+}
+
+.cs-message-input__content-editor-wrapper{
+  background-color: #fff !important;
+  color: #756E7E !important;
+}
+.cs-message-input__content-editor{
+  background-color: #fff !important;
+  color: #756E7E !important;
+}
+.cs-message-input__content-editor::placeholder{
+  background-color: #fff !important;
+  color: #756E7E !important;
+}
+
+.icon__chat{
+  color: #756E7E !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px !important
+}
+
+.chat__input {
+  width: 100% !important;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputForm {
+  margin-top: 0px !important;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+
+  textarea {
+    height: 120px !important;
+  }
+
+  input, textarea {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bac7d3;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #756E7E;
+
+    &:focus {
+      outline: none;
+    }
+    &:focus ~ label {
+      transform: translateY(-20px);
+      font-size: 12px;
+      color: #756E7E;
+      bottom: 0px;
+      left: 0px;
+    }
+    &:valid ~ label {
+      transform: translateY(-20px);
+      font-size: 12px;
+      color: #756E7E !important;
+    }
+  }
+
+
+  label {
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    left: 10px;
+    color: #756E7E;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+
+  }
+}

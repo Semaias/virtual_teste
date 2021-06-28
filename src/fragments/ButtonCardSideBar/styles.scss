@@ -1,0 +1,26 @@
+.CardButtonSideBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 11.3vw;
+  
+  font-family: "Source Sans Pro";
+    
+  background: transparent;
+  border:none !important;
+  color: #FFFFFF;
+  margin-bottom: -30px !important;
+    
+  border-radius: 4px;
+
+  .baralho{
+  
+  font-family: "Source Sans Pro";
+  width: 100% !important;
+    
+  color: #FFFFFF;
+    
+  padding: 5% 0%;
+  }
+}

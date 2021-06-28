@@ -1,0 +1,24 @@
+.container__grapharea{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  border: 1px solid #D0C6D8;
+
+  .container__grapharea--title{
+    width: 100%;
+    color: #5C3B81;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+    .container__grapharea--h3{
+      font-family: "Source Sans Pro";
+      font-weight: bold;
+      font-size: 18px !important;
+      text-align: center;
+      
+    }
+    
+  }
+}

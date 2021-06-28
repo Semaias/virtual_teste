@@ -6,13 +6,6 @@
   align-items: center;
     
   .container__EmailSent--col{
-    height: 100vh;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
     .container__EmailSent--h2{
       color: #5C3B81;
       font-size: 32px;
@@ -58,11 +51,6 @@
           text-decoration: underline #756E7E;
           cursor: pointer;
         }
-      }
-
-      .click{
-        background-color: #756E7E !important;
-
       }
     }
   }

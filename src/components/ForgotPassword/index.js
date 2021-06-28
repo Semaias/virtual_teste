@@ -11,13 +11,11 @@ import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const ForgotPassword = () => (
-  <div className="container__ForgotPassword">
-    <Container fluid>
-      <Row>
-        <Col sm={12} lg={6}>
-          <BannerLogin />
-        </Col>
-        <Col sm={12} lg={6}>
+  <Container fluid>
+    <Row>
+      <BannerLogin />
+      <Col sm={12} lg={6}>
+        <div className="container__ForgotPassword">
           <div className="container__ForgotPassword--col">
             <div>
               <RoundedCard />
@@ -40,10 +38,10 @@ const ForgotPassword = () => (
               </div>
             </div>
           </div>
-        </Col>
-      </Row>
-    </Container>
-  </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default ForgotPassword;

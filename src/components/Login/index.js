@@ -10,13 +10,11 @@ import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const Login = () => (
-  <div className="container__login">
-    <Container fluid>
-      <Row>
-        <Col sm={12} lg={6}>
-          <BannerLogin />
-        </Col>
-        <Col sm={12} lg={6}>
+  <Container fluid>
+    <Row>
+      <BannerLogin />
+      <Col sm={12} lg={6}>
+        <div className="container__login">
           <div className="container__login--col">
             <div>  
               <h2 className="container__login--h2">Virtual Fácil</h2>
@@ -37,10 +35,10 @@ const Login = () => (
               </div>
             </div>
           </div>
-        </Col>
-      </Row>
-    </Container>
-  </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default Login;

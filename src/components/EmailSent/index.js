@@ -11,29 +11,27 @@ import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const EmailSent = () => (
-  <div className="container__EmailSent">
-    <Container fluid>
+  <Container fluid>
       <Row>
+        <BannerLogin />
         <Col sm={12} lg={6}>
-          <BannerLogin />
-        </Col>
-        <Col sm={12} lg={6}>
-          <div className="container__EmailSent--col">
-            <div>
-              <RoundedCard />
-              <h2 className="container__EmailSent--h2">
-                Um email foi enviado
-                <br />
-                com um link para
-                <br />
-                redefinir sua senha.
-              </h2>
+          <div className="container__EmailSent">
+            <div className="container__EmailSent--col">
+              <div>
+                <RoundedCard />
+                <h2 className="container__EmailSent--h2">
+                  Um email foi enviado
+                  <br />
+                  com um link para
+                  <br />
+                  redefinir sua senha.
+                </h2>
+              </div>
             </div>
           </div>
         </Col>
       </Row>
     </Container>
-  </div>
 );
 
 export default EmailSent;

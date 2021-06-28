@@ -1,0 +1,39 @@
+.container__cardreport{
+  width: 180px;
+  height: 180px;
+  margin: 15px;
+  border-radius: 4px;
+  border: 1px solid #D0C6D8;
+
+  background-color: #FFFFFF !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .container__cardreport--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #5C3B81;
+
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Source Sans Pro";
+  }
+
+  .container__cardreport--text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #5C3B81;
+
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    text-align: center
+  }
+}

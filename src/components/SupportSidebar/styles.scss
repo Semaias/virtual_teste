@@ -1,0 +1,34 @@
+.container__SupportSidebar{
+  height: 100vh !important;
+  width: 100% !important;
+
+  background-color: #5C3B81;
+
+  position: absolute;
+  padding-top: 20px;
+  left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+
+  .container__SupportSidebar--button {
+    
+    width: 100%;
+  }
+
+  .container__SupportSidebar--card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+
+  .qwerty{
+    width: 50px !important;
+
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+  }
+}

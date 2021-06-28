@@ -1,72 +1,30 @@
 .container__sidebar{
-  Height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh !important;
+  width: 100% !important;
 
   background-color: #5C3B81;
 
-  .container__sidebar--title{
-    width: 260px;
-    height: 50px;
-    margin-left: 0px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #2C1842;
-
-    .container__sidebar--h2{
-      width: 260px;
-      height: 50px;
-      margin-bottom: 0;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      background-color: #2C1842;
-
-      font-size: 24px;
-      font-family: Source Sans Pro;
-      font-weight: bold;
-      line-height: 28px;
-      text-align: center;
-      color: #D5CDDE;
-    }
-  }
+  position: absolute;
+  padding-top: 20px;
+  left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
 
   .container__sidebar--button {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     width: 220px;
     margin-top: 10px;
   }
 
-}
-
-.container__sidebar--ftalks{
-  margin-left: 0px !important;
-  width: 100%;
-  border-bottom: 1px solid #D0C6D8;
-
-  display: flex;
-  align-items: center;
-  
-  color: #5C3B81;
-
-  .container__sidebar--ftalks_h2{
-    color: #5C3B81 !important;
-  }
-
-  .container__sidebar--ftcard{
+  .container__sidebar--card {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row !important;
+
+    margin-top: 20px;
   }
 }

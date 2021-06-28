@@ -1,0 +1,26 @@
+.container__contactsidebar{
+  height: calc(100vh - 50px) !important;
+  width: 100% !important;
+
+  background-color: #5C3B81 !important;
+
+  position: absolute;
+  padding-top: 20px;
+  left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+
+  .container__contactsidebar--button {
+    
+    width: 100% !important;
+  }
+
+  .container__contactsidebar--card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+}

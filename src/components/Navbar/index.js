@@ -5,13 +5,12 @@ import ProfileNavbar from '../../fragments/ProfileNavbar';
 import './styles.scss';
 
 const Navbar = () => (
-  <Container fluid>
-      <Row>
+
         <div className="container__navbar">
           <Col sm={12} lg={2}>
             <div className="container__navbar--title">
               <h2 className="container__navbar--h2">
-                Virtual fácil
+                Virtual Fácil
               </h2>
             </div>
           </Col>
@@ -23,8 +22,6 @@ const Navbar = () => (
             </div>
           </Col>
         </div>
-      </Row>
-    </Container>
 );
 
 export default Navbar;
