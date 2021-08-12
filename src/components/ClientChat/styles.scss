@@ -5,7 +5,7 @@
   color: #5C3B81 !important;
   font-size: 18px;
 }
-
+   
 .message__outcoming{
   div{
     background-color: #5C3B81 !important;
@@ -14,7 +14,6 @@
     border-radius: 16px 16px 0 16px !important;
   }
 }
-
 .cs-message-separator{
   font-size: 14px !important;
   color: #756E7E !important;
@@ -65,6 +64,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  .modal__button{
+    background-color: transparent !important;
+    color: #756E7E !important; 
+    border: none;
+  }
 }
 
 .inputForm {

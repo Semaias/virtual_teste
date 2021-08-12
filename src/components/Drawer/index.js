@@ -18,12 +18,8 @@ const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: "flex",
-  },
-  dormir: {
     position: "absolute",
-    right: 0,
-    top: 0,
+    display: 'flex',
   },
   appBar: {
     transition: theme.transitions.create(["margin", "width"], {
@@ -37,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen
     }),
-    marginRight: drawerWidth
+    marginLeft: drawerWidth
   },
   title: {
     flexGrow: 1
@@ -47,17 +43,17 @@ const useStyles = makeStyles((theme) => ({
   },
   drawer: {
     width: drawerWidth,
-    marginTop: 50,
+    marginTop: 100,
     flexShrink: 0
   },
   drawerPaper: {
     width: drawerWidth,
-    marginTop: 50
+    marginTop: 50,
   },
   drawerHeader: {
     display: "flex",
     alignItems: "center",
-    padding: theme.spacing(0, 1),
+    padding: theme.spacing(0, 0),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
     justifyContent: "flex-start"
@@ -98,7 +94,6 @@ export default function PersistentDrawerRight() {
     className={classes.root}
     >
       <Button
-        color=""
         aria-label="open drawer"
         edge="end"
         onClick={handleDrawerOpen}

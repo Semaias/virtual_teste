@@ -1,0 +1,49 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 15% !important
+}
+
+.container-content{
+  width: 100% !important;
+  height: 100% !important;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  
+  .modal__button--confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0!important;
+    background-color: #5C3B81 !important;
+
+    button{
+      background-color: #5C3B81 !important;
+    }
+  }
+}
+
+.style__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #756E7E !important;
+  border: none;
+}
+
+.modal--h2{
+  color: #5C3B81;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.modal--p{
+  color: #756E7E;
+  font-size: 18px !important;
+}

@@ -9,6 +9,7 @@ import Contacts       from './pages/Contacts';
 import Support        from './pages/Support';
 import Config         from './pages/Config';
 import Chat           from './pages/UserChat';
+import FAQ            from './pages/FAQ';
 
 export default function Routes() {
   return (
@@ -26,6 +27,7 @@ export default function Routes() {
         <Route exact path="/configuracoes" component={Config} />
 
         <Route exact path="/chat" component={Chat} />
+        <Route exact path="/faq"  component={FAQ} />
       </Switch>
     </BrowserRouter>
   );

@@ -12,6 +12,7 @@ import { RiHistoryLine,
 
 import CardReport    from '../../fragments/CardReport';
 import ButtonSupport from '../../fragments/ButtonSupport';
+import Forward       from '../../fragments/ForwardModal';
 
 import './styles.scss';
 
@@ -25,10 +26,13 @@ const ChatTitle = () => (
           <BsDownload size={40} />
         </span>
         <span className="container__ChatTitle--simbol">
-          <RiHistoryLine size={72} />
+          <RiHistoryLine size={40} />
         </span>
         <span className="container__ChatTitle--simbol">
-          <RiShareForwardFill size={40} />
+          <Forward
+            className="button modal__button--confirm"
+            icon={<RiShareForwardFill size={35} />}
+          />
         </span>
       </div>
     </div>

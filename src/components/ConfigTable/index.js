@@ -6,13 +6,13 @@ import ButtonContact from '../../fragments/ButtonContact';
 
 import './styles.scss';
 
-const ConfigTable = () => (
+const ConfigTable = ({ t_col_1, t_col_2, t_col_3 }) => (
   <Table striped bordered hover>
     <thead className="thead" >
       <tr>
-        <th>Título</th>
-        <th>Categoria</th>
-        <th>Ações</th>
+        <th>{ t_col_1 }</th>
+        <th>{ t_col_2 }</th>
+        <th>{ t_col_3 }</th>
       </tr>
     </thead>
     <tbody>

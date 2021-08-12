@@ -23,17 +23,17 @@ const data = [
   },
   {
     name: "Mar",
-    pv: 153,
+    pv: 253,
     amt: 2290
   },
   {
     name: "Abr",
-    pv: 428,
+    pv: 200,
     amt: 2000
   },
   {
     name: "Mai",
-    pv: 381,
+    pv: 281,
     amt: 2181
   },
   {

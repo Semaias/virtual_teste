@@ -13,6 +13,8 @@ import {
 
 import { Container, Row, Col } from 'react-bootstrap';
 
+import ModalForward from '../../fragments/ForwardModal';
+
 import {
   BsFillLightningFill,
   BsPaperclip
@@ -28,11 +30,15 @@ import './styles.scss';
 
 const ClientChat = (icons) => (
   <div style={{
-    height: "calc(100vh - 300px)", width: "100%", padding: "0px 50px"
+    height: "calc(100vh - 300px)", width: "80%", marginLeft: "5vw"
   }}>
     <ChatContainer>
       <MessageList
-      // typingIndicator={<TypingIndicator content="Emily is typing" />}
+      /////////////////////////////////////////////////////////////////////
+      // Detectar quando cliente está digitando e                        //
+      // exibir essa paradinha na tela                                   //
+      // typingIndicator={<TypingIndicator content="Emily is typing" />} //
+      /////////////////////////////////////////////////////////////////////
       >
 
         <Message className="message__incoming" model={{
