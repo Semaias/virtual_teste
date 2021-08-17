@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 
 import { FaWhatsapp } from 'react-icons/fa';
 
-import ButtonContact from '../../fragments/ButtonContact';
+import ButtonDropdown from '../../fragments/ButtonDropdown';
 
 import './styles.scss';
 
@@ -30,7 +30,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" /> </td>
       </tr>
       <tr className="tr-2">
         <td> 2º</td>
@@ -44,7 +44,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" /> </td>
       </tr>
       <tr className="tr-1">
         <td> 1º</td>
@@ -58,7 +58,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" opt1="horários" /> </td>
       </tr>
       <tr className="tr-2">
         <td> 2º</td>
@@ -72,7 +72,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" /> </td>
       </tr>
       <tr className="tr-1">
         <td> 1º</td>
@@ -86,7 +86,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" /> </td>
       </tr>
       <tr className="tr-2">
         <td> 2º</td>
@@ -100,7 +100,7 @@ const URATable = ({ t_col_1, t_col_2, t_col_3, t_col_4, t_col_5 }) => (
           Bruno <br />
           Isabella Virtual Fácil <br />
         </td>
-        <td> <ButtonContact text="Opções \/" /> </td>
+        <td> <ButtonDropdown text="Opções" /> </td>
       </tr>
     </tbody>
   </Table>

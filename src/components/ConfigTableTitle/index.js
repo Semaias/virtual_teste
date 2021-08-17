@@ -1,5 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
+import { Link } from 'react-router-dom';
+
 import { BsGear,
          BsQuestionCircle,
          BsDownload }         from 'react-icons/bs';
@@ -19,7 +21,9 @@ const ConfigTableTitle = ( {title}) => (
       <div className="container__ConfigTableTitle--title">
         <h2 className="container__ConfigTableTitle--h2"> {title} </h2>
         <span className="container__ConfigTableTitle--button">
-          <ButtonSupport text="Cadastrar"/>
+          <Link to="/cadastrar-tag">
+            <ButtonSupport text="Cadastrar"/>
+          </ Link>
         </span>
       </div>
     </div>

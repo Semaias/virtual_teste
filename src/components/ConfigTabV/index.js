@@ -8,6 +8,7 @@ import TabPane from 'react-bootstrap/TabPane';
 
 import ConfigTable from '../ConfigTable';
 import URATable from '../URATable';
+import TAGTable from '../TAGTable';
 import ConfigTableTitle from '../ConfigTableTitle';
 
 import './styles.scss';
@@ -93,8 +94,8 @@ const ConfigTabV = () => (
           </Tab.Pane>
 
           <Tab.Pane className="tab__content" eventKey="8">
-            <ConfigTableTitle title="TAG's" />
-            <ConfigTable
+          <ConfigTableTitle title="TAG's" />
+            <TAGTable
               t_col_1="Nome"
               t_col_2="Cor"
               t_col_3="Opções"

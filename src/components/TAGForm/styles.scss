@@ -1,0 +1,16 @@
+.container__TAGForm{
+  height: 250px;
+  margin-bottom: 40px;
+
+ display: flex;
+ flex-direction:column;
+ justify-content: space-around;
+ align-items: space-around;
+
+ button{
+   width: 150px;
+ }
+ a {
+   width: 150px;
+ }
+}

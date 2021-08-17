@@ -10,6 +10,7 @@ import Support        from './pages/Support';
 import Config         from './pages/Config';
 import Chat           from './pages/UserChat';
 import FAQ            from './pages/FAQ';
+import TagForm        from './pages/TagForm';
 
 export default function Routes() {
   return (
@@ -28,6 +29,8 @@ export default function Routes() {
 
         <Route exact path="/chat" component={Chat} />
         <Route exact path="/faq"  component={FAQ} />
+
+        <Route exact path="/cadastrar-tag"  component={TagForm} />
       </Switch>
     </BrowserRouter>
   );
